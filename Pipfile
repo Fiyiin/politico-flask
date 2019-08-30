@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+bandit = "*"
+yapf = "*"
+
+[packages]
+flask = "*"
+flask-restplus = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+marshmallow = "*"
+
+[requires]
+python_version = "3.7"
